@@ -132,7 +132,7 @@ Neural networks are powerful function approximators composed of interconnected l
 
 It learns the underlying structure of the data itself in order to create new, original data. They are designed to learn directly the joint probability $p(y,x)$. In a sence, there is no conceptual distinction between x’s and y’s. The core idea is the following:
 
-Given a dataset of observations  $\mathcal{D} = \left\{ \mathbf{x}_i \right\}_{i=1}^{N}$  sampled from an unknown distribution  $p_d(x)$,  learn a parametric model  $p_\theta(x) \approx p_d(x)$.  First, the method requires density estimation: evaluate  $p_\theta(\tilde{x})$  for a new  $\tilde{x}$  and generation: draw new samples  $x_{\text{new}} \sim p_\theta(x)$. Generative AI requires manifold hypothesis, high-dimensional data often concentrate near a lower-dimensional manifold; generative models aim to learn its structure.
+Given a dataset of observations sampled from an unknown distribution $p_d(x)$, learn a parametric model $p_\theta(x) \approx p_d(x)$. First, the method requires density estimation: evaluate $p_\theta(\tilde{x})$ for a new $\tilde{x}$ and generation: draw new samples $x_{\text{new}} \sim p_\theta(x)$. Generative AI requires manifold hypothesis, high-dimensional data often concentrate near a lower-dimensional manifold; generative models aim to learn its structure.
 
 #### List of alternatives
 
